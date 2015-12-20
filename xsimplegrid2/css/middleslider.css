@@ -1,0 +1,29 @@
+/* CSS Document */
+.anim-middleslider img#xoopslogo1{left: 7%;top: 37%;}
+.anim-middleslider img#xoopslogo2{left: 82%;top: 37%;} 
+.anim-middleslider h1#maintext{text-shadow:-1px 1px 0px;padding:6px;width:100%;margin-top:-10px;color:#fff;background-color: #139EE8;font-size: 50px;}
+.anim-middleslider h2#text2{ width:100%;top:28%;font-weight:900;text-shadow:0 0 20px rgba(0, 0, 0, 0.5);color:#8CBB00;font-size:30px;}
+.anim-middleslider h3#text3{width:100%;top:44%;font-weight:900;text-shadow:0 0 20px rgba(0, 0, 0, 0.5);color:#7D97B1;font-size:30px;}
+.anim-middleslider h4#text4{width: 100%;top:59%;font-weight:900;text-shadow:0 0 20px rgba(0, 0, 0, 0.5);color:#F08400;font-size:30px;}
+.anim-middleslider h3#todo{top:-5%;left: 10%;color:#7D97B1;font-size:25px;font-weight:900;text-shadow:0 0 20px #7D97B1;}
+.anim-middleslider h3#bounce{top:20%;left:20%;color:#139EE8;font-size:18px;font-weight:600;text-shadow:0 0 10px rgba(0, 0, 0.5, 0.5);}
+.anim-middleslider h4#bounceUp{top:20%;left:40%;color:#213A4E;font-size:20px;font-weight:600;text-shadow:0 0 10px rgba(0, 0, 0.5, 0.5);}
+.anim-middleslider h4#bounceRight{top:20%;left:65%;color:#225A86;font-size:22px;font-weight:600;text-shadow:0 0 10px rgba(0, 0, 0.5, 0.5);}
+.anim-middleslider h3#fade{top:50%;left:40%;font-size:25px;color:#FF3300;font-weight:900;text-shadow:0 0 30px #FF3300;}
+.anim-middleslider h4#fadeDown{top:67%;left:55%;font-size:22px;color:#FF3300;font-weight:600;text-shadow:0 0 10px rgba(0, 0, 0.5, 0.5);}
+.anim-middleslider h4#fadeUp{top:41%;left:76%;font-size:22px;color:#FF3300;font-weight:600;text-shadow:0 0 10px rgba(0, 0, 0.5, 0.5);}
+.anim-middleslider h3#rotate{top:35%;left:20%;color:#00CC00;font-size:32px;font-weight:600;text-shadow:0px 1px 1px #F9C910;}
+.anim-middleslider h4#rotateRight{top:70%;left:80%;color:#313131;font-size:20px;font-weight:600;text-shadow:1px 1px 0px #FF99FF;}
+.anim-middleslider h4#rotateLeft{top:70%;left:5%;color:#313131;font-size:20px;font-weight:600;text-shadow:1px 1px 0px #FF99FF;}
+.anim-middleslider img#xoopslogo1-1{left:35%;top:25%;}
+.anim-middleslider img#xoopslogo2-2{left:52%;top:25%;}
+.anim-middleslider h2#text5{top: 12%;left:10%;color:#F08400;font-size:42px;font-weight:900;text-shadow:0 0 20px rgba(0, 0, 0.5, 0.5);}
+.anim-middleslider h2#text6{top: 50%;left:16%;color:#8CBB00;font-size:24px;font-weight:600;text-shadow:0 0 10px rgba(0, 0, 0, 0.5);}
+.anim-middleslider h2#text7{top: 15%;left:70%;color:#139EE8;font-size:32px;font-weight:900;text-shadow:0 0 20px #F7F7F7;}
+.anim-middleslider h2#text8{top: 40%;left:76%;color:#FF3300;font-size:42px;font-weight:900;text-shadow:0 0 10px rgba(0, 0, 0.5, 0.5);}
+div#demo{text-align:center;}
+div#demo>a{display:inline-block;text-decoration: none;}
+div#demo>a>h4{padding: 5px 8px;margin:20px;background-color: #225A86;color:#fff;box-shadow:inset 0 -2px 0 rgba(0,0,0,0.15);}
+p#credits{z-index:-1;position: fixed;bottom:0px;width:100%;text-align:center;font-size:14px;}
+p#credits>a{font-weight:bold;color:#999;text-decoration: none;}
+img#github-logo{z-index:-1;position:fixed;bottom:-20px;right:2%;opacity: 0.4;}

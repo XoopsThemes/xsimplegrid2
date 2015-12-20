@@ -1,0 +1,29 @@
+/* CSS Document */
+.anim-slider-top{background-color:#97AAB8;}
+.anim-slide-top{opacity:0;}
+.anim-slide-top-this{opacity:1;}
+li.anim-slide-top:nth-of-type(1){background:#97AAB8 url("../images/topslider/x.jpg") 100%/cover;}
+li.anim-slide-top:nth-of-type(2){background:#97AAB8 url("../images/topslider/x1.jpg") 100%/cover;}
+li.anim-slide-top:nth-of-type(3){background:#97AAB8 url("../images/topslider/x2.jpg") 100%/cover;}
+li.anim-slide-top:nth-of-type(1)>h1{position: static;display: inline-block;margin-top: 4%;font-size:48px;padding: 0px 25px;}
+h1#looks{height:65%;background-color:#fff;color:#34495e;padding-top:50px;}
+h1#amazing{height:65%;background-color:#34495e;color:#fff;padding-top:50px;}
+h1#place{height:65%;background-color:#3498db;color:#fff;padding-top:50px;}
+li.anim-slide-top:nth-of-type(2)>div{width: 100%;height: 100%;}
+div#img1{background:#97AAB8 url("../images/topslider/x1.jpg") 100%/cover;}
+div#img2{background:#97AAB8 url("../images/topslider/x2.jpg") 100%/cover;}
+div#img3{background:#97AAB8 url("../images/topslider/x3.jpg") 100%/contain;}
+li.anim-slide-top:nth-of-type(3)>h1{margin: 0;font-size:80px;color: #fff;text-shadow:0 0 30px #FF3300;}
+h1#T{top:27%;left:50%;}
+h1#r{top:27%;left:56%;}
+h1#y{top:27%;left:62%;}
+h1#i{top:27%;left:70%;}
+h1#t{top:27%;left:73%;}
+h1#mark{top:27%;left:76%;}
+div#demo{text-align:center;}
+div#demo>a{display:inline-block;text-decoration:none;}
+div#demo>a>h4{padding: 5px 8px;margin: 20px;background-color:#225A86;color:#fff;box-shadow:inset 0 -2px 0 rgba(0,0,0,0.15);}
+p#credits{z-index:-1;position:fixed;bottom: 0px;width: 100%;text-align:center;font-size: 14px;}
+p#credits>a{font-weight:bold;color:#999;text-decoration:none;}
+img#github-logo{z-index:-1;position:fixed;bottom:-20px;right:2%;opacity: 0.4;}
+.anim-slider-top img#xoopslogo1-3{left:25%;top:25%;}

@@ -1,0 +1,104 @@
+#demo-switcher {
+  position: fixed;
+  bottom: 2px;
+  z-index: 9999;
+  left: -265px;
+  transition: .4s;
+}
+#demo-switcher.opened{
+	left: 0;
+}
+#demo-switcher2.opened{
+	left: 0;
+}
+#demo-menu {
+  width: 265px;
+}
+.socialmenu {
+  margin: 0;
+  height:52px;
+  text-transform: uppercase;
+  color: #2A6496;
+  background-color: #2F5376;
+
+}
+.socialmenuicons {display:inline;margin-left:20px;font-size:36px;}
+.sicon {padding-left:15px;color:#F7F7F7;}
+.sicon:hover {color:#FFAB2C;}
+.switcher{
+	background-color: #FFFFD4;
+	padding: 3px;
+	border-right: 1px solid #DDD;
+	border-bottom: 1px solid #DDD;
+	border-bottom-right-radius: 4px;
+}
+.social {margin-top:5px;padding-left:10px;}
+.switcher .form-control{
+	box-shadow: none;
+	-webkit-box-shadow: none;
+}
+.theme-colors{
+	list-style: none;
+	padding: 0;	
+}
+.theme-colors li a {
+	width: 42px;
+	height: 32px;
+	display: inline-block;
+	border-radius: 3px;
+	margin-bottom:-5px;
+}
+.theme-colors li {
+	display: inline-block;
+	margin: 0px;
+}
+#toggle-button2 {
+	background:#2F5376;
+	padding-left:3px;
+	padding-top:8px;
+    position: absolute;
+    top: 0;
+    left: 265px;
+    color: #2F5376;
+    height: 52px;
+    width: 49px;
+    text-align: center;
+    line-height: 49px;
+    cursor: pointer;
+}
+.buttonicon {color:#F7F7F7;margin-right:5px;}
+.buttonicon:hover {color:#EB1C23;}
+.buttonsearch {color:#F7F7F7;margin-right:0px;margin-top:7px;}
+.buttonsearch:hover {color:#33FF33;}
+#demo-switcher-search {
+  position: fixed;
+  bottom:2px;
+   z-index: 9999;
+  right: -265px;
+  transition: .4s;
+}
+#demo-switcher-search.opened{
+	right: 0;
+}
+#demo-menu-search {
+	height:50px;
+    width: 265px;
+    margin: 0;
+    padding-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2F5376;
+    background-color: #2F5376;
+}
+#toggle-button-search {
+	background:#2F5376;
+    position: absolute;
+    top: 0;
+    right: 265px;
+    color: #2F5376;
+    height: 50px;
+    width: 49px;
+    text-align: center;
+    line-height: 49px;
+    cursor: pointer;
+}

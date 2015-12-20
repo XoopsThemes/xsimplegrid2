@@ -1,0 +1,101 @@
+<div class="grid bigcontent">
+<{if $xoops_contents}>
+<div class="col-1-1">
+<div class="custombanner col-9-12 push-1-7">
+<a href="#"><img class="grid" src="<{xoImgUrl}>images/custombanner.jpg"  alt="banner"></a>
+</div>
+</div>
+<{/if}>
+<{if $xoBlocks.canvas_left or $xoBlocks.page_topcenter}>
+<div class="grid grid-pad">
+		<div class="col-3-12">
+        <{foreach item=block from=$xoBlocks.canvas_left}>
+        	<div class="xblock cblockspad">
+                <{if $block.title}><h4 class="xbtitle"><{$block.title}></h4><{/if}>
+                <{$block.content}>
+            </div>
+        <{/foreach}>
+		</div>
+<div class="col-9-12 m479-2">
+			<{if $xoops_contents}>
+<div class="xcontent padd1">
+			<{$xoops_contents}>
+</div>
+			<{/if}>
+        <{foreach item=block from=$xoBlocks.page_topcenter}>
+        	<div class="xblock cblockspad">
+                <{if $block.title}><h4 class="xbtitle"><{$block.title}></h4><{/if}>
+                <{$block.content}>
+            </div>
+        <{/foreach}>		
+</div>
+</div>
+<{/if}>
+<div class="grid-pad">
+<{if $xoBlocks.page_topright or $xoBlocks.canvas_right}>
+<div class="grid m479">
+			<div class="col-1-2">
+        <{foreach item=block from=$xoBlocks.page_topright}>
+        	<div class="xblock cblockspad">
+                <{if $block.title}><h4 class="xbtitle"><{$block.title}></h4><{/if}>
+                <{$block.content}>
+            </div>
+        <{/foreach}>		
+			</div>
+			<div class="col-1-2">
+        <{foreach item=block from=$xoBlocks.canvas_right}>
+        	<div class="xblock cblockspad">
+                <{if $block.title}><h4 class="xbtitle"><{$block.title}></h4><{/if}>
+                <{$block.content}>
+            </div>
+        <{/foreach}>		
+			</div>
+</div>
+<{/if}>
+<{if $xoBlocks.page_topleft}>
+<div class="grid m479">
+			<div class="col-1-1">
+        <{foreach item=block from=$xoBlocks.page_topleft}>
+        	<div class="xblock cblockspad">
+                <{if $block.title}><h4 class="xbtitle"><{$block.title}></h4><{/if}>
+                <{$block.content}>
+            </div>
+        <{/foreach}>		
+			</div>
+</div>
+<{/if}>
+</div>
+<div class="grid middleslider hide-on-mobile dnone">
+<{includeq file="$theme_name/tpl/middleslider.html"}>
+</div>
+<div class="xbottom grid-pad">
+<{if $xoBlocks.page_bottomcenter or $xoBlocks.page_bottomright or $xoBlocks.page_bottomleft}>
+<div class="grid m479"> 
+  <div class="col-1-3">
+    <{foreach item=block from=$xoBlocks.page_bottomleft}>
+        <div class="xbblock">
+            <{if $block.title}><h4 class="xbtitle"><{$block.title}></h4><{/if}>
+            <{$block.content}>
+        </div>
+    <{/foreach}>
+</div>
+<div class="col-1-3">
+    <{foreach item=block from=$xoBlocks.page_bottomcenter}>
+        <div class="xbblock">
+            <{if $block.title}><h4 class="xbtitle"><{$block.title}></h4><{/if}>
+            <{$block.content}>
+        </div>
+    <{/foreach}>
+</div>
+<div class="col-1-3">
+    <{foreach item=block from=$xoBlocks.page_bottomright}>
+        <div class="xbblock">
+            <{if $block.title}><h4 class="xbtitle"><{$block.title}></h4><{/if}>
+            <{$block.content}>
+        </div>
+    <{/foreach}>
+</div>
+</div>
+<{/if}>
+</div>
+</div>

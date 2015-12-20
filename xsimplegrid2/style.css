@@ -1,0 +1,108 @@
+/* CSS Document */
+/*
+xSimplegrid2 Template
+Author:				Brutalicuss
+DEMO URL:			http://eunion.info/xoops/xsimplegrid
+Licence:			GPL
+*/
+@-webkit-viewport   {width: device-width;}
+@-moz-viewport      {width: device-width;}
+@-ms-viewport       {width: device-width;}
+@-o-viewport        {width: device-width;}
+@viewport           {width: device-width;}
+*:focus {  
+outline: none;
+}
+a:link {text-decoration:none;color:#545050;outline:none;}
+a:hover {color:#00D4FF;outline:none;}
+body {background-color:#E1E1E1;font-family: 'Open Sans', sans-serif;line-height: 1.5;font-style: normal;font-weight: normal;color: #545050;width: 100%;height: 100%;}
+.bodyback {background:#F3F3F3;}
+.bigcontent {background:#F7F7F7;padding:5px;padding-top:20px;}
+.site-closed {margin-left:40px;margin-top:40px;}
+/* Menus Header Buttons */
+.menuMain, .menuTop {display:block;font-weight:600;}
+#usermenu a{display:block;font-weight:600;}
+.menuSub {display:block;margin-left:10px;}
+.xheader {top:0;position:fixed;background:#2F5376;height:80px;width:100%;border-bottom:1px solid #F6EEBF;border-top:1px solid #F6EEBF;z-index:9999;}
+.btn-primary a{color: inherit}
+.xlogo {float:left;margin-top:20px;margin-left:20px;}
+.xbanner {float:right;margin-top:10px;margin-right:50px;}
+/* Blocks */
+.xbtitle {font-weight:900;color:#2F5376;}
+.xblock {margin-top:20px;background:#FBFBE2; border:1px solid #DBEAF9;padding:0 15px 25px 25px;border-radius:3px;}
+.xcontent {margin-top:20px;background:#FBFBE2; border:1px solid #DBEAF9;padding:0 15px 25px 25px;border-radius:3px;}
+.padd1 {padding-top:20px;}
+.xbottom {margin-bottom:140px;}
+.xbblock {margin-top:20px;background:#FBFBE2; border:1px solid #DBEAF9;padding:0 15px 25px 25px;border-radius:3px;}
+.xblock:hover {background:#FBFBD6; border:1px solid #DBEAF9;box-shadow:0 0 7px #DBEAF9;}
+.xbblock:hover {background:#FBFBD6; border:1px solid #DBEAF9;box-shadow:0 0 7px #DBEAF9;}
+.cblockspad {margin-bottom:20px;}
+/* Footer */
+.xfooter {width:100%;bottom:0;position:fixed;height:55px;background:#2F5376;border-top:1px solid #F6EEBF;border-bottom:1px solid #F6EEBF;z-index:9000;}
+.footercontent {padding-top:15px;text-align:center;color:#000;}
+.footercontent a:link{color:#F7F7F7;}
+.footercontent a:hover{color:#00D4FF;}
+.fmenuicon{margin-left:450px;margin-top:-30px;}
+/* Top and Middle sliders */
+.topslider {margin-top:80px;border-bottom:1px solid #F6EEBF;}
+.middleslider {padding-right:20px;padding-left:20px;}
+/* Exstras */
+#background_cycler{padding:0;margin:0;width:100%;position:fixed;top:0;left:0;z-index:-1;}
+#background_cycler img{position:fixed;left:0;top:0;width:100%;z-index:1;}
+#background_cycler img.active{z-index:3}
+.custombanner {margin-bottom:-20px;}
+.fastmenu {float:left;margin-top:22px;}
+.fi{font-size: 28px;line-height: 32px;}
+.fixx {display:none;}/* fix to not display icon's shadow on page refresh */
+.pop_li{font-size: 12px;}
+.fa-bars{color: #F7F7F7;font-size: 32px;margin-left:15px;}
+.back-to-top {position: fixed;bottom: 2em;right: -1px;text-decoration: none;color: #F7F7F7;font-size: 42px;padding: 12px;display: none;}
+.backtop a {color:#B3CCE5;}
+.backtop a:hover {color:#00D4FF;}
+#loading {width: 100%;height: 100%;top: 0px;left: 0px;position: fixed;display: block;opacity: 0.7;background-color: #fff;z-index: 99;text-align: center;}
+#loading-image {position: relative;top:350px;z-index: 100;}
+.searchbtn {background:#F7F7F7;padding:2px;margin-left:3px;border:1px solid #333;border-radius:3px;}
+.searchbtn:hover {background:#33FF33;}
+iframe {max-width:98%;}
+#com_text {max-width:80%;}
+/* Media */
+@media (max-width: 479px) {
+.m479 {margin-left:-29px;width:115%;}
+.m479-2 {margin-left:-19px;width:115%;padding:-10px;}
+.m479-2 img{max-width:80%;}
+.xoops_contents {width:110%;}
+.xfooter {height:80px;}
+#demo-switcher {margin-bottom:80px;}
+#demo-switcher-search {margin-bottom:80px;}
+.fnone {display:none;}
+}
+@media (max-width: 767px) {
+.mhide {display:none;}
+img {max-width:95%;}
+.outer {font-size:10px;}
+}
+@media (max-width: 991px) {
+#loading-image {top:50px;}
+.dnone {display:none;}
+.socialmenu {background:inherit;}
+#toggle-button2 {background:inherit;}
+#demo-menu-search {background:inherit;}
+#toggle-button-search {background:inherit;}
+.buttonicon {color:#ccc;}
+.buttonsearch {color:#ccc;}
+.sicon {color:#333;}
+.outer {max-width:95%;font-size:12px;}
+}
+@media (max-width: 1199px) {
+#loading-image {top:200px;}
+.dnone2 {display:none;}
+.mobilecontent {width:80%;}
+}
+@media (max-width: 1359px) {
+.xfooter {position:relative;}
+.back-to-top {bottom: 3em;}
+}
+@media (max-width: 1679px) {
+.topslider {margin-top:0px;}
+.xheader {position:relative;}
+}
