@@ -7,7 +7,8 @@
 *  @license     MIT - https://github.com/vchouliaras/jquery.animateSlider.js/blob/master/LICENSE-MIT 
 *
 */
-;(function($,window,document,undefined)
+var j = jQuery.noConflict();
+;(function(j,window,document,undefined)
 {
 	/**
 	 * [Create the contructor of animateSlider Plugin]
